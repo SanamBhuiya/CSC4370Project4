@@ -45,7 +45,7 @@ INSERT INTO `House` (`location`, `floor_plan`, `Number_of_bedrooms`, `Additional
 -- --------------------------------------------------------
 
 --
--- Table structure for table `brands`
+-- 
 --
 
 CREATE TABLE `Marietta` (
@@ -57,7 +57,7 @@ CREATE TABLE `Marietta` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `House`
+-- 
 --
 
 INSERT INTO `Marietta` (`location`, `floor_plan`, `Number_of_bedrooms`, `Additional_features`,`is_active` ) VALUES
@@ -67,7 +67,7 @@ INSERT INTO `Marietta` (`location`, `floor_plan`, `Number_of_bedrooms`, `Additio
 -- --------------------------------------------------------
 
 --
--- Table structure for table `cart`
+-- 
 --
 
 CREATE TABLE `Atlanta` (
@@ -79,7 +79,7 @@ CREATE TABLE `Atlanta` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `House`
+-- 
 --
 
 INSERT INTO `Atlanta` (`location`, `floor_plan`, `Number_of_bedrooms`, `Additional_features`,`is_active` ) VALUES
@@ -95,7 +95,7 @@ CREATE TABLE `add_delete` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `House`
+-- 
 --
 
 INSERT INTO `add_delete` (`location`, `floor_plan`, `Number_of_bedrooms`, `Additional_features`,`is_active` ) VALUES
