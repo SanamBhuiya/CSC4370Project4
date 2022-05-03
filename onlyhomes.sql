@@ -48,8 +48,8 @@ INSERT INTO `House` (`location`, `floor_plan`, `Number_of_bedrooms`, `Additional
 -- Table structure for table `brands`
 --
 
-CREATE TABLE `House` (
-  `location` Marietta(50) NOT NULL,
+CREATE TABLE `Marietta` (
+  `location` varchar(50) NOT NULL,
   `floor_plan` varchar(50) NOT NULL,
   `Number_of_bedrooms` varchar(50) NOT NULL,
   `Additional_features` varchar(255) NOT NULL,
